@@ -18,8 +18,8 @@ i18n
         },
 
         backend: {
-            loadPath: '/locales/{{lng}}/{{ns}}.json'
+            loadPath: '/texts&languages/{{lng}}/{{ns}}.json'
         }
-    });
+    })
 
 export default i18n;

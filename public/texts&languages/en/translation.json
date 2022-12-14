@@ -1,0 +1,21 @@
+{
+  "home_page": "Home",
+  "list_of_architects": "Architects of Belarus",
+  "russian_lang": "Russian",
+  "english_lang": "English",
+  "start_phrase": "Discover the beauty of Belarusian architecture",
+  "about_site_line1": "Belarusian architecture is a collective centuries-long work and the pride of the peoples who inhabited the territory of the country at one time or another.",
+  "about_site_line2": "Here you will find information about outstanding architects of Belarus.",
+
+  "creators": "Developers",
+  "creator1": "Dana Kononova",
+  "creator2": "Andrey Berezkin",
+  "creator3": "Nikita Aleksandrov",
+  "github": "GitHub profile",
+
+  "person_of_day": "Person of the day",
+  "personButton": "Learn more",
+
+  "architectsListHeader": "List of architects of Belarus",
+  "searchCaption": "Search for an architect"
+}
