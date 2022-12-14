@@ -10,16 +10,16 @@ i18n
 
     .init({
         debug: true,
-        lng: "ru",
-        supportedLngs: ["en", "ru"],
+        lng: "rus",
+        supportedLngs: ["eng", "rus"],
 
         interpolation: {
             escapeValue: false
         },
 
         backend: {
-            loadPath: '/texts&languages/{{lng}}/{{ns}}.json'
+            loadPath: '/locales/{{lng}}/{{ns}}.json'
         }
-    })
+    });
 
 export default i18n;
