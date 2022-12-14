@@ -1,0 +1,102 @@
+.about_site {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-image: url("../images/PaskevichCastle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_site_text {
+    color: white ;
+    font-size: 25px;
+    font-weight: 500;
+    width: 40%;
+}
+
+.start_phrase {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    width: 50%;
+}
+
+
+ /*Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+    .about_site {
+        flex-direction: column;
+    }
+
+    .about_site_text {
+        width: 80%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .start_phrase {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .about_site {
+        flex-direction: column;
+    }
+
+    .about_site_text {
+        width: 80%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .start_phrase {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .about_site {
+        flex-direction: column;
+    }
+
+    .about_site_text {
+        width: 80%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .start_phrase {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .about_site {
+        flex-direction: column !important;
+    }
+
+    .about_site_text {
+        width: 80%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .start_phrase {
+        width: 90%;
+        text-align: center;
+    }
+}

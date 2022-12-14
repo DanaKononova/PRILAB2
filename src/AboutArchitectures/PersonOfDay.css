@@ -1,0 +1,25 @@
+.person_of_day {
+    background: linear-gradient(260.17deg, rgba(129, 123, 154, 0.84) 34.17%, rgba(144, 140, 138, 0.84) 94.62%) !important;
+    width: 100%;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.person_of_day_head {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .person_of_day {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .person_of_day {
+        width: 100%;
+    }
+}
