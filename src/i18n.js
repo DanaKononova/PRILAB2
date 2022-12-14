@@ -10,15 +10,15 @@ i18n
 
     .init({
         debug: true,
-        lng: "ru",
-        supportedLngs: ["en", "ru"],
+        lng: "rus",
+        supportedLngs: ["eng", "rus"],
 
         interpolation: {
             escapeValue: false
         },
 
         backend: {
-            loadPath: '/locales/{{lng}}/{{ns}}.json'
+            loadPath: '/localization/{{lng}}/{{ns}}.json'
         }
     });
 

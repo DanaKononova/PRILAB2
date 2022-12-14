@@ -27,14 +27,14 @@ function NavigationBar() {
                             </Link>
                         </Nav>
                         <div className="navigation_languages">
-                            <Nav.Link className="navigation_link" onClick={() => i18n.changeLanguage("ru")}>
+                            <Nav.Link className="navigation_link" onClick={() => i18n.changeLanguage("rus")}>
                                 <img src={rus} alt="russian" className="flag_image"/>
                                 <span>
                                     {t("russian_lang")}
                                 </span>
                             </Nav.Link>
 
-                            <Nav.Link className="navigation_link" onClick={() => i18n.changeLanguage("en")}>
+                            <Nav.Link className="navigation_link" onClick={() => i18n.changeLanguage("eng")}>
                                 <img src={eng} alt="english" className="flag_image"/>
                                 <span>
                                     {t("english_lang")}
