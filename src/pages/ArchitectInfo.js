@@ -6,6 +6,9 @@ import '../i18n.js';
 import {Link, useParams} from "react-router-dom"
 import { useTranslation } from 'react-i18next';
 import {Image} from "react-bootstrap";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import {FaArrowCircleDown} from 'react-icons/fa';
 
 function ArchitectInfo() {
     const { t, i18n } = useTranslation();
@@ -24,6 +27,24 @@ function ArchitectInfo() {
                     </Card>
                 </Card.Body>
             </Card>
+
+            <VerticalTimeline>
+                {
+                    data[person]["dates"].map((time, personId) =>
+                        <VerticalTimelineElement
+                            key = {personId}
+                            date = {time}
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'rgba(73, 98, 227)', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '15px solid  rgba(23, 41, 133)' }}
+                            iconStyle={{ background: 'rgb(103, 31, 196)', color: '#fff' }}
+                            icon={<FaArrowCircleDown/>}
+                        >
+                            <p>{t(`architects.${person}.i${personId}`)}</p>
+                        </VerticalTimelineElement>
+                    )
+                }
+            </VerticalTimeline>
         </Stack>
     );
 }
