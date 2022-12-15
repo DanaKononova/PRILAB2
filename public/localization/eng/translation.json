@@ -23,6 +23,24 @@
         "3": "House of officers in Minsk"
       },
       "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396932!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669838941593!5m2!1sen!2sby"
+    },
+    "bovt": {
+      "name": "Ivan",
+      "surname": "Bovt",
+      "patronymic": "Ivanovich",
+      "shortDesc": "Soviet and Belarusian architect. Honored Architect of the Byelorussian SSR (1973).",
+      "longDesc": "Laureate of the Prize of the Council of Ministers of the USSR and the Prize of the Council of Ministers of the Republic of Belarus, Academician of the Belarusian Academy of Architecture, Academician of the International Academy of Architecture, Chairman of the Board of the Union of Architects of the BSSR (1977-1980), Secretary of the Union of Architects of the USSR (1977-1982), Member of the Urban Planning Council of the Gosstroy of the USSR (1977-1981), Gosstroy of the USSR (1968-1982), Department of Architecture of the Minsk Oblast Executive Committee and Minsk City Executive Committee (multiple times), deputy of the Leninsky District Council of Workers' Deputies of Minsk (1965, 1967).",
+      "i0": "Born in Minsk on July 20, 1932 in the family of a civil servant, the eldest of three children.",
+      "i1": "In 1948 he graduated from seven classes of secondary school No. 33. In his youth he was engaged in aircraft modeling, he was going to enter the Moscow Aviation Institute as an aviation designer",
+      "i2": "Graduated in 1952 from the Minsk Architectural and Civil Engineering College, in 1961 from the Belarusian Polytechnic Institute with a degree in Industrial and Civil Engineering",
+      "i3": "In 1952-2001 he worked at the Belpromproject Institute, in 1962-2001 he was the chief architect. In January-July 1956, with a group of architects, I. I. Bovt was sent to Kazakhstan to develop master plans and priority objects of virgin state farms of the Kokchetav region",
+      "i4": "Member of the Union of Architects of the BSSR since 1962, Chairman of the Board of the Union of Architects of the BSSR in 1978-80. Since 1978 - Secretary of the Board of the USSR SA. Member of the CPSU since 1971.",
+      "captions": {
+        "1": "Watch factory in Minsk",
+        "2": "Institute of Construction and Architecture",
+        "3": "Belarusian Automobile Plant"
+      },
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396982!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2! 1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1669837966060!5m2!1sru!2sby"
     }
   }
 }
