@@ -1,5 +1,23 @@
 {
+  "home_page": "Home",
+  "list_of_architects": "Architects of Belarus",
+  "russian_lang": "Russian",
+  "english_lang": "English",
+  "start_phrase": "Belarusian architects",
+  "about_site_line1": "An architect is a specialist who is engaged in architectural design, that is, the development of building plans, their facades - in general and in detail, as well as interior spaces.",
+  "about_site_line2": "The architecture of the country is a kind of image of the state, it can reveal the historical heritage, speak about the tastes, preferences and standard of living of the state.",
+
+  "creators": "Developers",
+  "creator1": "Dana Kononova",
+  "creator2": "Andrey Berezkin",
+  "creator3": "Nikita Aleksandrov",
+  "github": "GitHub profile",
+
+  "person_of_day": "Person of the day",
   "personButton": "Learn more",
+
+  "list_of_arch": "List of architects of Belarus",
+  "searchCaption": "Search for an architect",
 
   "ListHeader": "Architects of Belarus",
   "search": "Search...",

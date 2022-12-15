@@ -4,13 +4,18 @@
     background-image: url("../images/PaskevichCastle.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about_site_text {
     color: white ;
+    margin-left: 20px;
+    justify-self: right;
+    text-align: end;
     font-size: 25px;
     font-weight: 500;
     width: 40%;
@@ -20,8 +25,8 @@
     color: white;
     text-align: center;
     font-weight: 700;
-    font-size: 46px;
-    width: 50%;
+    font-size: 40px;
+    width: 100%;
 }
 
 
