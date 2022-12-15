@@ -9,6 +9,7 @@ import {Image} from "react-bootstrap";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {FaArrowCircleDown} from 'react-icons/fa';
+import Carousel from 'react-bootstrap/Carousel';
 
 function ArchitectInfo() {
     const { t, i18n } = useTranslation();
@@ -45,6 +46,47 @@ function ArchitectInfo() {
                     )
                 }
             </VerticalTimeline>
+
+
+            <Card className="gallery">
+                <Card.Body className="gallery-info">
+                    <Card.Text className="place-info">
+                        {t(`architects.${person}.captions.${1}`)}
+                    </Card.Text>
+                    <Card className="gallery-img">
+                        <Image src={require(`../arch_img/${person}/1.png`)} className="gallery-photo"/>
+                    </Card>
+
+                    <Card.Text className="place-info">
+                        {t(`architects.${person}.captions.${2}`)}
+                    </Card.Text>
+                    <Card className="gallery-img">
+                        <Image src={require(`../arch_img/${person}/2.png`)} className="gallery-photo"/>
+                    </Card>
+
+                    <Card.Text className="place-info">
+                        {t(`architects.${person}.captions.${3}`)}
+                    </Card.Text>
+                    <Card className="gallery-img">
+                        <Image src={require(`../arch_img/${person}/3.png`)} className="gallery-photo"/>
+                    </Card>
+                </Card.Body>
+            </Card>
+
+            <Card className="video">
+                <iframe className="arch-video" src={`https://www.youtube.com/embed/${data[person]["video"]}`}
+                        allow="accelerometer; autoplay, picture-in-picture"
+                        allowFullScreen>
+                </iframe>
+            </Card>
+
+            <Card className="map">
+            <iframe
+                src={t(`architects.${person}.map`)}
+                allowFullScreen="" loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade" className="arch-map"></iframe>
+            </Card>
+
         </Stack>
     );
 }

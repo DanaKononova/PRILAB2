@@ -11,7 +11,7 @@ function NavigationBar() {
     const { t, i18n } = useTranslation();
     return (
         <>
-            <Navbar as="header" expand="lg" className="navigation">
+            <Navbar as="header"  expand="lg" className="navigation" >
                 <Container>
                     <div className="navigation_bar">
                     <Link to="/" className="logo">
@@ -29,16 +29,36 @@ function NavigationBar() {
                                     <span>{t("russian_lang")}</span>
                                 </Nav.Link>
 
+                    <Navbar.Toggle aria-controls="navigation_toggle" />
+                    <Navbar.Collapse id="navigation_collapse" >
+
+                        <Nav className="navigation_links">
+                            <Link to="/" className="navigation_link">
+                                {t("home_page")}
+                            </Link>
+                            <Link to="/architects" className="navigation_link">
+                                {t("list_of_architects")}
+                            </Link>
+                        </Nav>
+                        <div className="navigation_languages">
+                            <Nav.Link className="navigation_link" onClick={() => i18n.changeLanguage("rus")}>
+                                <img src={rus} alt="russian" className="flag_image"/>
+                                <span>
+                                    {t("russian_lang")}
+                                </span>
+                            </Nav.Link>
+
                                 <Nav.Link className="lang" onClick={() => i18n.changeLanguage("eng")}>
                                     <img src={eng} alt="english" className="flag"/>
                                     <span>{t("english_lang")}</span>
                                 </Nav.Link>
                             </div>
                         </div>
+
                     </Navbar.Collapse>
                     </div>
                 </Container>
-            </Navbar>
+                </Navbar>
             <Outlet />
         </>
     );

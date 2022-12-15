@@ -42,7 +42,7 @@ function List_of_arch() {
                             foundUsers.map((id) =>
                                 <ListGroup.Item >
                                     <p className="fio">{t(`architects.${id[0]}.surname`)} {t(`architects.${id[0]}.name`)} {t(`architects.${id[0]}.patronymic`)}
-                                        <Button className="button-more" as={Link} to={`/architects/${id[0]}`}>{t("personButton")}</Button>
+                                        <Button className="btn btn-info" as={Link} to={`/architects/${id[0]}`}>{t("personButton")}</Button>
                                     </p>
                                     <p className="descr">{t(`architects.${id[0]}.shortDesc`)}</p>
                                 </ListGroup.Item>
