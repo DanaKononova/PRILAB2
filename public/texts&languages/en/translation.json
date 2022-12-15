@@ -17,5 +17,30 @@
   "personButton": "Learn more",
 
   "architectsListHeader": "List of architects of Belarus",
-  "searchCaption": "Search for an architect"
+  "searchCaption": "Search for an architect",
+
+  "ListHeader": "Architects of Belarus",
+  "search": "Search...",
+
+  "architects": {
+    "langbard": {
+      "name": "Joseph",
+      "surname": "Langbard",
+      "patronymic": "Grigorievich",
+      "shortDesc": "Belarusian Soviet architect, Honored Artist of the Byelorussian SSR (1934), winner of the Grand Prix of the World Exhibition in Paris, 1937, Doctor of Architecture (since 1939).",
+      "longDesc": "He is one of the outstanding architects of Europe of the 20th century, whose artistic heritage had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the image of the city of Minsk and are examples of Belarusian architecture.",
+      "i0": "Joseph Langbard was born on January 6 (18), 1882 in the town of Belsk, Grodno province of the Russian Empire, into a Jewish family. His father saw the future for his son in commerce, but Joseph loved to draw from childhood.",
+      "i1": "Having brilliantly graduated from the local gymnasium in 1901, he entered the architectural department of the Odessa Art College, which he graduated in 1906.",
+      "i2": "In 1907 he moved to St. Petersburg, where he successfully passed the exams at the Higher Art School at the Imperial Academy of Arts at the Faculty of Architecture. He studied for seven years in St. Petersburg. ",
+      "i3": "During the First World War, Langbard worked at the front as the head of an engineering detachment. Under his leadership, the Zemstvo Administration in Kostroma, the Agricultural Museum and the Theater of Miniatures in Petrograd were built at that time.",
+      "i4": "During the Second World War, Langbard worked on camouflaging buildings in Leningrad, after being evacuated to the rear he lived in the Yaroslavl region. In 1944 he returned to Minsk, destroyed by the Nazis, where, as part of the commission of the Committee for Architecture under the Council of People's Commissars of the USSR, he worked on plans reconstruction of Minsk and Gomel.",
+      "i5": "Together with Mikhail Baklanov, he developed the project for the building of the Pobeda cinema in Minsk, completed in 1950.",
+      "captions": {
+        "1": "Independence Square in Minsk",
+        "2": "Building of the Academy of Sciences in Minsk",
+        "3": "House of officers in Minsk"
+      },
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396932!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669838941593!5m2!1sen!2sby"
+    }
+  }
 }

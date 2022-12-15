@@ -1,11 +1,23 @@
 .navigation {
     background-color: rgba(129, 127, 162, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: flex-start;
 }
 
-
 .navigation_logo {
-    margin-right: 120px !important;
+    margin-right: 0;
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
+    /*margin-left: auto;*/
+}
+
+.navigation_links {
+    /*display: inline-block;*/
+    /*box-sizing: border-box;*/
 }
 
 .navigation_link, navigation_language {
@@ -18,11 +30,8 @@
     margin-right: 10px;
 }
 
-.navigation_language {
-    display: inline !important;
-}
-
 .navigation_link:hover {
+    margin: auto;
     font-weight: 700 !important;
 }
 

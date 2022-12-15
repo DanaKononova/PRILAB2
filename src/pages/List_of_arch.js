@@ -10,11 +10,8 @@ import Button from "react-bootstrap/Button";
 
 function List_of_arch() {
     const { t, i18n } = useTranslation();
-
     const elems = Object.keys(data).map((id) => [id, t(`architects.${id}.surname`) + " " + t(`architects.${id}.name`) + " " + t(`architects.${id}.patronymic`)])
-
     const [name, setName] = useState('');
-
     const [foundUsers, setFoundUsers] = useState(elems);
 
     const filter = (e) => {
@@ -27,7 +24,6 @@ function List_of_arch() {
         } else {
             setFoundUsers(elems);
         }
-
         setName(keyword);
     };
 
@@ -53,9 +49,7 @@ function List_of_arch() {
                             )) : ("")}
                     </ListGroup>
                 </Card>
-
             </div>
-
         </>
     )
 }

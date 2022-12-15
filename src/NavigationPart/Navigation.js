@@ -16,7 +16,7 @@ function NavigationBar() {
                     <Link to="/" className="navigation_logo">
                         <img src={logo} alt="logo" />
                     </Link>
-                    <Navbar.Toggle aria-controls="navigation_toggle" />
+                    {/*<Navbar.Toggle aria-controls="navigation_toggle" />*/}
                     <Navbar.Collapse id="navigation_collapse">
                         <Nav className="navigation_links">
                             <Link to="/" className="navigation_link">
@@ -46,7 +46,6 @@ function NavigationBar() {
             </Navbar>
             <Outlet />
         </>
-
     );
 }
 
