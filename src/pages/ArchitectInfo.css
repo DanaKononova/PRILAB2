@@ -26,7 +26,7 @@
 .architect-name, .architect-years {
     text-align: center;
     font-size: 45px !important;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     font-weight: 700;
     color: white;
 }
