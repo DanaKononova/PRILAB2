@@ -11,13 +11,15 @@ function NavigationBar() {
     const { t, i18n } = useTranslation();
     return (
         <>
-            <Navbar as="header" expand="lg" className="navigation">
+            <Navbar as="header"  expand="lg" className="navigation" >
                 <Container>
                     <Link to="/" className="navigation_logo">
                         <img src={logo} alt="logo" />
                     </Link>
+
                     <Navbar.Toggle aria-controls="navigation_toggle" />
-                    <Navbar.Collapse id="navigation_collapse">
+                    <Navbar.Collapse id="navigation_collapse" >
+
                         <Nav className="navigation_links">
                             <Link to="/" className="navigation_link">
                                 {t("home_page")}
@@ -41,9 +43,10 @@ function NavigationBar() {
                                 </span>
                             </Nav.Link>
                         </div>
+
                     </Navbar.Collapse>
                 </Container>
-            </Navbar>
+                </Navbar>
             <Outlet />
         </>
 
