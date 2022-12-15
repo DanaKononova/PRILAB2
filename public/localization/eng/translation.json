@@ -22,7 +22,7 @@
         "2": "Building of the Academy of Sciences in Minsk",
         "3": "House of officers in Minsk"
       },
-      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396932!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1669838941593!5m2!1sen!2sby"
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38627.4881521161!2d23.155104918590883!3d52.76434165531651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472023903269b7d3%3A0xfedf75199d10c898!2s17-100%20Bielsk%20Podlaski%2C%20Poland!5e0!3m2!1sen!2sby!4v1671104902505!5m2!1sen!2sby"
     },
     "bovt": {
       "name": "Ivan",
@@ -40,7 +40,25 @@
         "2": "Institute of Construction and Architecture",
         "3": "Belarusian Automobile Plant"
       },
-      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.92958396982!2d27.45328575748422!3d53.8845584624547!2m3!1f0!2f0!3f0!3m2! 1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2z0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1669837966060!5m2!1sru!2sby"
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75252.67274821814!2d27.523157469202456!3d53.88472069817362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk!5e0!3m2!1sen!2sby!4v1671104803661!5m2!1sen!2sby"
+    },
+    "romanov": {
+      "name": "Nicholas",
+      "surname": "Romanov",
+      "patronymic": "Venediktovich",
+      "shortDesc": "Civil Engineer, Architect",
+      "longDesc": "Civil engineer, architect",
+      "i0": "Born in 1863, descended from chief officer children. After graduating from the Astrakhan Real School, he entered the Institute of Civil Engineers in 1882. He graduated from the 1st category course in 1887.",
+      "i1": "From 1893 to 1900, M. Romanov was a Grodno provincial architect. On February 12, 1900, due to the death of Grodno provincial engineer V.F. Nebolsin, he was temporarily appointed to perform his duties.",
+      "i2": "In 1906-09, he took an active part in the construction of the Petrovsky-Nikolaevsky bridge across the Neman River in the city of Grodno. For this, N. Romanov received the highest gratitude from His Imperial Majesty.",
+      "i3": "With the outbreak of the First World War, M. V. Romanov was seconded to the 1st district of military road works, and then to the command of the head of the military road department of the Northern Front.",
+      "i4": "After evacuation into the interior of the country at the end of the war, he returned to Grodno, where he died in 1927.",
+      "captions": {
+        "1": "Church of St. Nicholas in Bialowieza",
+        "2": "People's House in Grodno",
+        "3": "Brick St. Nicholas Church in Krupchitsy"
+      },
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75613.19307532748!2d23.7806400131158!3d53.684188737470784!2m3!1f0!2f0!3f0!3m2! 1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd64beac55d1d%3A0xf013fd26569718c0!2z0JPRgNC-0LTQvdC-!5e0!3m2!1sru!2sby!4v1671105501335!5m2!1sby!2sby"
     }
   }
 }
