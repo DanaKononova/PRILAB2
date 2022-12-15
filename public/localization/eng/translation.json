@@ -22,7 +22,7 @@
         "2": "Building of the Academy of Sciences in Minsk",
         "3": "House of officers in Minsk"
       },
-      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38627.4881521161!2d23.155104918590883!3d52.76434165531651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472023903269b7d3%3A0xfedf75199d10c898!2s17-100%20Bielsk%20Podlaski%2C%20Poland!5e0!3m2!1sen!2sby!4v1671104902505!5m2!1sen!2sby"
+      "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38627.4881521161!2d23.155104918590883!3d52.76434165531651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472023903269b7d3%3A0xfedf75199d10c898!2s17-100%20Bielsk%20Podlaski%2C%20Poland!5e0!3m2!1sen!2sby!4v1671107264730!5m2!1sen!2sby"
     },
     "bovt": {
       "name": "Ivan",
@@ -58,7 +58,41 @@
         "2": "People's House in Grodno",
         "3": "Brick St. Nicholas Church in Krupchitsy"
       },
-      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75613.19307532748!2d23.7806400131158!3d53.684188737470784!2m3!1f0!2f0!3f0!3m2! 1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd64beac55d1d%3A0xf013fd26569718c0!2z0JPRgNC-0LTQvdC-!5e0!3m2!1sru!2sby!4v1671105501335!5m2!1sby!2sby"
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77855.46992147376!2d30.88069842531352!3d52.42509784008621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4699b50faf1a5%3A0x5ecca30fd2361396!2sGomel!5e0!3m2!1sen!2sby!4v1671107303909!5m2!1sen!2sby"
+    },
+    "parusnikov": {
+      "name": "Mikhail",
+      "surname": "Sailboats",
+      "patronymic": "Pavlovich",
+      "shortDesc": "Soviet architect, full member of the USSR Academy of Architecture (1950).",
+      "longDesc": "Academician of the Academy of Sciences of the BSSR (1950; corresponding member since 1947). Teacher, professor (since 1948). Laureate of the State Prize of the Byelorussian SSR (1968).",
+      "i0": "From 1913 to 1918 he studied at MUZHVZ (his father was rector of a nearby church), then until 1924 at VKHUTEMAS. A student of S. V. Noakovsky and I. V. Zholtovsky.",
+      "i1": "From 1924 he worked in the architectural design organizations of Moscow and at the same time taught (1934-1941, since 1948 - professor) at the Moscow Architectural Institute.",
+      "i2": "In 1941-1944 - senior researcher at the Academy of Architecture of the USSR, in 1944-1948 - head of the architectural design workshops of the Committee for Architecture of the USSR.",
+      "i3": "Published a number of scientific papers on the theory and history of architecture, including: \"On the principles of complex serial design of residential buildings\" (Architecture of the USSR. 1953. No. 12) and \"On the experience of designing a series of typical mid-rise buildings\" (Architecture USSR. 1955. No. 2).",
+      "captions": {
+        "1": "KGB building in Minsk",
+        "2": "Building of the National Bank of the Republic of Belarus",
+        "3": "Bridge over the Svisloch"
+      },
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.4387329643!2d36.82376442827013!3d55.58151820195861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2sMoscow%2C%20Russia!5e0!3m2!1sen!2sby!4v1671108276718!5m2!1sen!2sby"
+    },
+    "korol": {
+      "name": "Vladimir",
+      "surname": "Korol",
+      "patronymic": "Adamovich",
+      "shortDesc": "Soviet, Belarusian architect, teacher. People's Architect of the USSR (1970).",
+      "longDesc": "Awards: State Prize of the Byelorussian SSR (1968) - for the architecture of Leninsky Prospekt in Minsk, Order of Lenin (1958), Order of the October Revolution (1971), Order of the Red Banner of Labor (1966), Order of the Badge of Honor (1949) )",
+      "i0": "In 1931 he graduated from the Vitebsk Art College. For several years he worked as a teacher and director of one of the schools in Dzerzhinsk, Minsk region. From 1934 to 1941 he studied at the architectural faculty of the Leningrad Institute of Painting, Sculpture and Architecture",
+      "i1": "In July 1941, he joined the people's militia and, as an assistant military engineer of the division, took part in the defense of Leningrad. In November 1941, he was recalled from the front to work at the All-Russian Academy of Arts, and in 1942 he was evacuated to Central Asia together with staff and students of the academy, where he worked as director of the art school",
+      "i2": "In 1945, he arrived in Minsk, liberated and destroyed by the Nazis. He was appointed head of the architectural and planning workshop of the Belgosproekt Institute, which was engaged in the implementation of one of the main tasks of post-war urban planning: the development of a plan for planning and building the center of the capital of Belarus",
+      "i3": "Since 1947, he began working as a teacher, and then as head of the department of urban planning at the Faculty of Architecture of the Belarusian Polytechnic Institute",
+      "captions": {
+        "1": "The buildings of the post office on Independence Avenue and the Central Telegraph on October Square in Minsk",
+        "2": "Memorial \"Brest Hero Fortress\"",
+        "3": "Administrative building in Polotsk"
+      },
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18891.81731483488!2d28.41253913074416!3d53.70976151805052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da1720fca28f3f%3A0x3e7aa55afeb062f8!2zxIxlcnZpZcWE!5e0!3m2!1sen!2sby!4v1671109384933!5m2!1sen!2sby"
     }
   }
 }
